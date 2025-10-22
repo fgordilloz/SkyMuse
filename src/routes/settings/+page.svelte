@@ -136,6 +136,7 @@
 			<select class="select w-48" bind:value={language}>
 				<option value="English">English</option>
 				<option value="Português Europeu">Português Europeu</option>
+				<option value="Spanish">Spanish</option>
 				<option value="Македонски">Македонски</option>
 			</select>
 		</div>
