@@ -93,6 +93,100 @@ export const locales = {
 			tornado: 'Tornado'
 		}
 	},
+	Spanish: {
+		setupPage: {
+			welcomeToSkyMuse: 'Bienvenido a SkyMuse',
+			letsSetup: 'Vamos a configurar la aplicación.',
+			skyMuseLanguages: 'SkyMuse dispone actualmente de 3 idiomas. Elige el tuyo.',
+			location: 'Ubicación',
+			locationParagraph:
+				'Para que SkyMuse funcione correctamente, debes indicar tu ubicación. Introduce el nombre de tu ciudad o localidad en el campo inferior.',
+			themes: 'Temas',
+			chooseTheme: 'Puedes elegir entre 5 temas diferentes para SkyMuse, y pronto habrá más.',
+			done: 'Listo'
+		},
+		homePage: {
+			home: 'Inicio',
+			daylightCycle: 'Ciclo solar',
+			atmosphere: 'Atmósfera',
+			dailyWeather: 'Clima diario',
+			sunset: 'Puesta de sol',
+			sunrise: 'Amanecer',
+			visibility: 'Visibilidad',
+			wind: 'Viento'
+		},
+		weekDays: {
+			yesterday: 'Ayer',
+			today: 'Hoy',
+			tomorrow: 'Mañana',
+			sunday: 'Domingo',
+			monday: 'Lunes',
+			tuesday: 'Martes',
+			wednesday: 'Miércoles',
+			thursday: 'Jueves',
+			friday: 'Viernes',
+			saturday: 'Sábado'
+		},
+		settingsPage: {
+			title: 'Ajustes',
+			selectACity: 'Seleccionar localidad',
+			localityPlaceholder: 'Introduce una localidad...',
+			units: 'Unidades',
+			metric: 'Métrico',
+			imperial: 'Imperial',
+			themes: {
+				theme: 'Tema',
+				default: 'Predeterminado',
+				spring: 'Primavera',
+				summer: 'Verano',
+				autumn: 'Otoño',
+				winter: 'Invierno'
+			},
+			lightMode: 'Modo claro',
+			language: 'Idioma',
+			credits: {
+				credits: 'Créditos',
+				jokoAttribution: 'Icono, traducción macedonia'
+			},
+			copyright: {
+				copyright: 'Derechos de autor',
+				firstParagraph: `Deberías haber recibido una copia de la licencia MIT al descargar la aplicación. Si no es así, puedes consultarla **_[aquí](https://github.com/cakePhone/SkyMuse/blob/main/LICENSE)_**.`,
+				thanksToOpenMeteo: 'Gracias a',
+				thanksToOpenMeteoAnchor: 'Open-Meteo.com',
+				notRelatedParagraph: `Todos los datos meteorológicos utilizados en la aplicación provienen de las APIs de geolocalización y predicción de Open-Meteo, con fines no comerciales. La aplicación y su desarrollador no están afiliados a Open-Meteo.`
+			}
+		},
+		dataByOpenMeteo: 'Datos proporcionados por Open-Meteo.com',
+		weatherStrings: {
+			clearSky: 'Despejado',
+			mainlyClear: 'Mayormente despejado',
+			partlyCloudy: 'Parcialmente nublado',
+			cloudy: 'Nublado',
+			foggy: 'Neblina',
+			veryFoggy: 'Mucha niebla',
+			lightDrizzle: 'Llovizna ligera',
+			moderateDrizzle: 'Llovizna moderada',
+			denseDrizzle: 'Llovizna intensa',
+			lightFreezingDrizzle: 'Llovizna helada ligera',
+			denseFreezingDrizzle: 'Llovizna helada intensa',
+			slightRain: 'Lluvia ligera',
+			moderateRain: 'Lluvia moderada',
+			heavyRain: 'Lluvia intensa',
+			slightFreezingtRain: 'Lluvia helada ligera',
+			heavyFreezingRain: 'Lluvia helada intensa',
+			snowingLightly: 'Nieve ligera',
+			snowingModerately: 'Nieve moderada',
+			snowingHeavily: 'Nieve intensa',
+			snowGrains: 'Granizo fino',
+			lightShowers: 'Chubascos débiles',
+			moderateShowers: 'Chubascos moderados',
+			heavyShowers: 'Chubascos intensos',
+			thunderStorm: 'Tormenta eléctrica',
+			thunderStormSlightHail: 'Tormenta con granizo leve',
+			thunderStormHeavyHail: 'Tormenta con granizo fuerte',
+			tornado: 'Tornado'
+		}
+	},
 	'Português Europeu': {
 		setupPage: {
 			welcomeToSkyMuse: 'Bem-vindo à SkyMuse!',
